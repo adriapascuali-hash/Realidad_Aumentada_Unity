@@ -1,0 +1,49 @@
+# ---- Unity (AR_Unity) ----
+AR_Unity/[Ll]ibrary/
+AR_Unity/[Tt]emp/
+AR_Unity/[Oo]bj/
+AR_Unity/[Bb]uild/
+AR_Unity/[Bb]uilds/
+AR_Unity/[Ll]ogs/
+AR_Unity/[Uu]ser[Ss]ettings/
+AR_Unity/[Mm]emoryCaptures/
+*.csproj.user
+*.pidb
+*.booproj
+*.svd
+*.pdb.meta
+*.mdb.meta
+*.opendb
+*.VC.db
+*.unityproj
+*.suo
+*.tmp
+*.user
+*.userprefs
+crashlytics-build.properties
+*_BurstDebugInformation_DoNotShip/
+
+# ---- C# / Visual Studio (csDronLink) ----
+.vs/
+[Bb]in/
+[Oo]bj/
+
+# ---- Python (WebApp) ----
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+
+# ---- Certificados / claves ----
+*.pem
+*.key
+*.pfx
+
+# ---- Configuración local del editor / herramientas ----
+.claude/
+
+# ---- Sistema ----
+Thumbs.db
+Desktop.ini
+.DS_Store
