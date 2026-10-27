@@ -472,6 +472,11 @@
             left: 4%;
         }
 
+        /* Texto del bloqueo de empuje: el joystick de empuje cambia de lado en zurdo */
+        .hand-lefty-text { display: none; }
+        body.lefty .hand-righty-text { display: none; }
+        body.lefty .hand-lefty-text { display: inline; }
+
         /* ── Mode Selection Modal ──────────────────────────────────────────── */
         .modal {
             position: fixed;
@@ -682,7 +687,7 @@
                     <span class="pct" id="sens-right-y-val">50%</span>
                 </div>
             </div>
-            <button id="btn-throttle-lock" class="btn-secondary drawer-btn">BLOQUEAR EMPUJE JOYSTICK IZQ.</button>
+            <button id="btn-throttle-lock" class="btn-secondary drawer-btn">BLOQUEAR EMPUJE JOYSTICK <span class="hand-righty-text">IZQ.</span><span class="hand-lefty-text">DER.</span></button>
         </div>
 
         <div class="drawer-divider"></div>

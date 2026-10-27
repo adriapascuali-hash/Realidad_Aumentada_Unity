@@ -4,12 +4,6 @@ import paho.mqtt.client as mqtt
 import json
 import webrtc_server
 
-# ─── app2.py ─────────────────────────────────────────────────────────────────
-# Copia de app.py SIN HTTPS — HTTP plano, tal como estaba antes de meter TLS.
-# Sirve para descartar si un problema es del propio HTTPS (certificado,
-# mixed content, etc.) comparando el mismo comportamiento sin él. Puertos
-# idénticos a app.py (5000 y 8108), así que no se pueden lanzar los dos a la
-# vez — es para probar uno u otro, no en paralelo.
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'droneapp-tfg-2026'
