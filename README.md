@@ -111,10 +111,11 @@ Unity y la WebApp se comunican a través de un bróker MQTT público, por lo que
 
 ## Links
 
-- **Memoria del TFG**: _añadir enlace_
-- **Vídeo 1**: _añadir descripción_ - _añadir enlace_
-- **Vídeo 2**: _añadir descripción_ - _añadir enlace_
-- **Vídeo 3**: _añadir descripción_ - _añadir enlace_
+- **Memoria del TFG**: [descargar memoria.pdf](https://github.com/adriapascuali-hash/Realidad_Aumentada_Unity/raw/main/memoria.pdf)
+- **Vídeo 1**: Explicación de la WebApp - [ver en YouTube](https://www.youtube.com/watch?v=T5foatWfXHs)
+- **Vídeo 2**: Explicación de los juegos y escenarios - [ver en YouTube](https://www.youtube.com/watch?v=KULWfiWd5aM)
+- **Vídeo 3**: Explicación del editor de misiones - [ver en YouTube](https://www.youtube.com/watch?v=Zi-FkhJtJeQ)
+- **Vídeo 4**: Explicación de la arquitectura software de la aplicación - [ver en YouTube](https://www.youtube.com/watch?v=5eSaPgqo1VU)
 
 ## Autor
 
